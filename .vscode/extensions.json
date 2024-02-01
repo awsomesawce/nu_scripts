@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "asciidoctor.asciidoctor-vscode",
+        "aaron-bond.better-comments",
+        "vivaxy.vscode-conventional-commits",
+        "editorconfig.editorconfig",
+        "thenuprojectcontributors.vscode-nushell-lang"
+    ]
+}

@@ -1,0 +1,38 @@
+= Nu Scripts
+:author: Carl C.
+:description: readme for nushell scripts.
+:toc: auto
+:keywords: nu, shell, terminal
+:toc-title: Contents
+:url-nush: https://nushell.sh
+:url-pwsh-gh: https://github.com/powershell/powershell
+:url-pwsh: https://microsoft.com/PowerShell
+
+A place to store my nu scripts.
+
+https://nushell.sh[Nushell] is a _new shell_ that does things a little differently.
+It is a data-oriented shell, like {url-pwsh-gh}[Powershell], but it has some interesting features
+that warrant it being checked out.
+
+== Todo
+
+* Learn how to properly document hand written functions.
+* Find more documentation.
+
+== What I've Learned
+
+https://nushell.sh[Nu] has a lot of the same concepts as *Powershell*.
+
+They're both object-oriented languages in their own right, they support separating code into `modules`, and they're both well documented and have a very functional +help+ function.
+
+=== What makes Nu Different
+
+{url-nush}*Nushell* does things a tad differently in a few ways.
+
+*Redirection*:: *Nushell* reserves the `<` and `>` operators for _less-than_ and _greater-then_ respectively, so you can't do things like 
+`echo "Hello" > file.txt`.
+Instead, you need to do `echo "Hello" | save file.txt`, which isn't a problem.
+
+*Powershell* can do the same thing like so: `echo "Hello" | Out-File file.txt`
+
+*Importing Data*:: The `open` command is quite amazing.

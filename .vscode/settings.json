@@ -1,0 +1,16 @@
+{
+    "task": {
+        "tree": {
+            "sort": "default",
+            "nesting": true
+        }
+    },
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "FiraMono Nerd Font Mono, Consolas, 'Courier New', monospace",
+    "[nushell]": {
+        "editor.fontLigatures": true,
+        "breadcrumbs.showConstants": true,
+        "files.encoding": "utf8",
+        "files.eol": "\n"
+    }
+}
