@@ -5,5 +5,8 @@
         "vivaxy.vscode-conventional-commits",
         "editorconfig.editorconfig",
         "thenuprojectcontributors.vscode-nushell-lang"
+    ],
+    "unwantedRecommendations": [
+        "vscode.csharp"
     ]
 }

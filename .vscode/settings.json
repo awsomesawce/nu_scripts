@@ -7,6 +7,10 @@
     },
     "files.autoSave": "afterDelay",
     "editor.fontFamily": "FiraMono Nerd Font Mono, Consolas, 'Courier New', monospace",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.indentSize": "tabSize",
+    "editor.formatOnSave": true,
     "[nushell]": {
         "editor.fontLigatures": true,
         "breadcrumbs.showConstants": true,
