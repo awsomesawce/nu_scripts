@@ -19,4 +19,28 @@ export def chtshTwo [
 
 export alias ll = ls -l
 
-export extern echo [text: string]
+export extern lsd [
+    --all(-a)  # Show all files
+    --help     # Get help
+]
+
+# Test module
+export module myAliases {
+    export alias dr = deno run
+    export alias gst = git status
+}
+
+export module myData {
+    export const myGh = "https://github.com/awsomesawce"
+    
+}
+
+export module myUtils {
+
+    # Get object from github api
+    export def getGhApi [
+        s?: string  # String to pass.
+    ] {
+        curl "https://api.github.com"
+    }
+}

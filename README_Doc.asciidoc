@@ -1,5 +1,5 @@
 = Nu Scripts
-:author: Carl C.
+:author: Carl C. <awsomesawce@outlook.com>
 :description: readme for nushell scripts.
 :toc: auto
 :keywords: nu, shell, terminal
@@ -35,4 +35,6 @@ Instead, you need to do `echo "Hello" | save file.txt`, which isn't a problem.
 
 *Powershell* can do the same thing like so: `echo "Hello" | Out-File file.txt`
 
-*Importing Data*:: The `open` command is quite amazing.
+*Importing Data*:: The `open` command is quite amazing.  {url-nush}[Nushell] speaks many formats and languages.  Use `open package.json` and
+the shell imports the json file as data.
+You can do `let pkgjson = open "package.json"` and then you can get the dependencies by typing `$pkgjson.dependencies`, just like {url-pwsh-gh}[Powershell].
