@@ -1,6 +1,6 @@
 # https://taskfile.dev
 
-version: '3'
+version: "3"
 
 vars:
   GREETING: Hello, World!
@@ -10,3 +10,57 @@ tasks:
     cmds:
       - echo "{{.GREETING}}"
     silent: true
+    desc: demo of default task
+    summary: |
+      Summary of the default.
+
+  nuconfig:
+    cmds:
+      - nu -c "echo \$nu"
+    desc: Output the nushell config as yaml string.
+    aliases:
+      - "nuconf"
+    label: My nu config
+    prompt: Would you like to see nu config?
+
+  nuConfigFile:
+    cmd: nu -c "echo \$nu.config-path"
+
+  nuEnvFile:
+    cmd: nu -c "echo \$nu.env-path"
+    desc: Print the location of the env.nu file for nu config.
+
+  nuBothFiles:
+    deps:
+      - nuConfigFile
+      - nuEnvFile
+    desc: This should print both files.
+    summary: |
+      It works!
+
+  nuhelp:
+    cmds:
+      - nu -h
+    desc: Display nushell help
+    summary: |
+      DIsplays the result of `nu -h`
+
+    aliases:
+      - "nuh"
+    prompt: Display?
+
+  nudocs:
+    cmds:
+      - start https://nushell.sh
+    desc: Open nushell site.
+    aliases:
+      - "nusite"
+
+  convert_rm_adoc:
+    cmd: asciidoctor.cmd -b html5 README_Doc.asciidoc
+    desc: Convert asciidoc file to html, written to README_Doc.html
+    aliases:
+      - "cvadoc"
+    generates:
+      - README_Doc.html
+    method: timestamp
