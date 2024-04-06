@@ -1,0 +1,7 @@
+{
+    // Basic
+    // * Look into using Prettier for formatting.
+
+    "MD013": false, // Disable line-length warnings.
+    "MD040": false // Don't require language name for fenced code blocks.  Used for README.md to allow `xc` to work.
+}
