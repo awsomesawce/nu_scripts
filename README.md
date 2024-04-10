@@ -28,3 +28,12 @@ nu -h
 ```
 where nu
 ```
+
+### ghhelp
+
+using `gh` for github admin
+
+```
+gh auth status
+gh repo view
+```

@@ -64,3 +64,10 @@ tasks:
     generates:
       - README_Doc.html
     method: timestamp
+
+  ghhelp:
+    cmds:
+      - gh auth status
+      - gh repo view
+      - gh --helP
+    desc: using gh
