@@ -1,0 +1,87 @@
+= Hello
+:author: Carl Capodice
+:title: Hello asciidoc again
+:description: A simple introduction into Asciidoc as a documentation writing tool
+:lang: English
+:chtsh: https://cht.sh
+:obsidian: https://obsidian.md
+
+.Source code title
+[source,asciidoc,subs="+quotes,attributes+",options="nowrap"]
+----
+:toc: right # <1>
+// with var substitution (attributes+)
+:variable definition, the value is {variable}
+// with the markup substitution (+quotes)
+// no wrapping long lines (nowrap)
+----
+<1> Asciidoctor syntax for the table of content
+
+# formatting
+*bold*, **un**constrained
+
+_italic_, __un__constrained
+`monospace`, ``un``constrained
+
+`[underline]#Underline text#`
+`[overline]#overline text#`
+`[line-through]#strikethrough#`
+`[blue line-through]*bold blue and line-through*.`
+
+# formatting
+*bold* **un**constrained
+_italic_, __un__constrained
+`monospace` ``un``constrained
+`[underline]#underlined text#`
+
+== Hello again asciidoc
+
+TIP: AsciidocFX is buggy. Don't use it. Just use VS Code.
+
+.Table titleOfTable
+[caption="Table 2: "]
+|===
+| Name | Description
+| Asciidoctor
+| awesome way to write documentation
+//
+2+| This cell spans 2 {docdir}
+//
+.2+| This cell spans 2 rows.
+//
+| Line at the side of the spanned rows
+| Another line 
+//
+|===
+
+[quote, Somebody, Who is somebody]
+----
+This is a silly quote by an unknown author.
+----
+//
+NOTE: Some note
+//
+[WARNING]
+====
+Some warning
+====
+
+=== h3 header
+
+
+==== h4 header
+
+How do u like them apples? hahaha
+
+
+````
+this is a literal block
+````
+
+== Checlists and definition lists
+
+Description list item:: definition
+[horizontal]
+Description list item #2:: definition
+
+So there's two styles for the definition list.

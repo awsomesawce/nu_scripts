@@ -1,0 +1,224 @@
+- name: .editorconfig
+  type: file
+  target: null
+  readonly: false
+  size: 505
+  created: 2024-02-01 17:31:29.957870200 -05:00
+  accessed: 2024-11-01 23:09:26.317331900 -04:00
+  modified: 2024-03-08 06:34:24.766343200 -05:00
+- name: .gitignore
+  type: file
+  target: null
+  readonly: false
+  size: 3167
+  created: 2024-02-01 17:31:04.269851500 -05:00
+  accessed: 2024-11-01 23:10:05.457293700 -04:00
+  modified: 2024-03-08 06:34:24.766343200 -05:00
+- name: .markdownlint.jsonc
+  type: file
+  target: null
+  readonly: false
+  size: 243
+  created: 2024-04-05 23:07:17.734540 -04:00
+  accessed: 2024-11-01 22:43:15.527336200 -04:00
+  modified: 2024-04-05 23:18:23.062272100 -04:00
+- name: .vscode
+  type: dir
+  target: null
+  readonly: false
+  size: 4096
+  created: 2024-02-01 17:26:44.837902 -05:00
+  accessed: 2024-11-01 23:10:05.454928100 -04:00
+  modified: 2024-03-08 06:34:56.101206900 -05:00
+- name: Cappuccino_Chiang_Mai.jpeg
+  type: file
+  target: null
+  readonly: false
+  size: 406401
+  created: 2024-11-01 23:09:36.528747300 -04:00
+  accessed: 2024-11-01 23:09:36.767516900 -04:00
+  modified: 2024-11-01 23:09:36.767516900 -04:00
+- name: README.md
+  type: file
+  target: null
+  readonly: false
+  size: 342
+  created: 2024-02-01 21:39:38.780899 -05:00
+  accessed: 2024-11-01 22:43:10.165346600 -04:00
+  modified: 2024-04-05 23:05:31.604129600 -04:00
+- name: README_Doc.asciidoc
+  type: file
+  target: null
+  readonly: false
+  size: 1672
+  created: 2024-02-01 16:39:54.189594 -05:00
+  accessed: 2024-04-10 00:12:00.591672100 -04:00
+  modified: 2024-02-01 21:31:07.013495100 -05:00
+- name: Taskfile.yml
+  type: file
+  target: null
+  readonly: false
+  size: 1414
+  created: 2024-02-01 16:41:42.529928400 -05:00
+  accessed: 2024-04-14 12:27:22.176287400 -04:00
+  modified: 2024-04-09 23:44:08.148943 -04:00
+- name: aliases.nu
+  type: file
+  target: null
+  readonly: false
+  size: 401
+  created: 2024-02-01 16:47:40.125390600 -05:00
+  accessed: 2024-04-10 00:12:00.668708300 -04:00
+  modified: 2024-02-09 02:50:42.421598700 -05:00
+- name: b.nu
+  type: file
+  target: null
+  readonly: false
+  size: 263
+  created: 2024-03-08 06:34:56.116831800 -05:00
+  accessed: 2024-04-20 18:17:26.899061300 -04:00
+  modified: 2024-03-08 06:34:56.116831800 -05:00
+- name: basics.nu
+  type: file
+  target: null
+  readonly: false
+  size: 888
+  created: 2024-02-01 18:03:24.109486500 -05:00
+  accessed: 2024-11-01 19:56:31.565826700 -04:00
+  modified: 2024-02-09 02:53:06.749746700 -05:00
+- name: commitlint.config.js
+  type: file
+  target: null
+  readonly: false
+  size: 66
+  created: 2024-03-08 06:22:57.463674300 -05:00
+  accessed: 2024-11-01 22:43:15.530142900 -04:00
+  modified: 2024-03-08 06:25:35.806527700 -05:00
+- name: config.nu
+  type: file
+  target: null
+  readonly: false
+  size: 24912
+  created: 2024-03-08 06:03:33.989274800 -05:00
+  accessed: 2024-04-10 00:12:00.691634100 -04:00
+  modified: 2024-01-24 08:09:46.766495400 -05:00
+- name: deno.json
+  type: file
+  target: null
+  readonly: false
+  size: 74
+  created: 2024-03-13 01:57:03.305966300 -04:00
+  accessed: 2024-11-01 22:43:15.541441600 -04:00
+  modified: 2024-04-04 02:13:54.893832300 -04:00
+- name: deno.lock
+  type: file
+  target: null
+  readonly: false
+  size: 9200
+  created: 2024-04-10 00:35:54.914225600 -04:00
+  accessed: 2024-11-01 22:43:15.517973800 -04:00
+  modified: 2024-04-10 00:35:54.916005400 -04:00
+- name: env.nu
+  type: file
+  target: null
+  readonly: false
+  size: 1277
+  created: 2024-03-08 06:02:44.337051700 -05:00
+  accessed: 2024-04-20 17:20:43.116918600 -04:00
+  modified: 2024-04-20 17:19:03.346482600 -04:00
+- name: hashermod.nu
+  type: file
+  target: null
+  readonly: false
+  size: 703
+  created: 2024-04-14 12:27:42.906226700 -04:00
+  accessed: 2024-04-20 17:20:14.630321700 -04:00
+  modified: 2024-04-14 12:41:40.340981300 -04:00
+- name: hello.asciidoc
+  type: file
+  target: null
+  readonly: false
+  size: 1742
+  created: 2024-11-01 22:21:25.552739200 -04:00
+  accessed: 2024-11-01 22:59:20.019094900 -04:00
+  modified: 2024-11-01 22:59:20.019094900 -04:00
+- name: ignore
+  type: dir
+  target: null
+  readonly: false
+  size: 131072
+  created: 2024-02-01 17:54:10.945818900 -05:00
+  accessed: 2024-11-01 23:09:37.922302100 -04:00
+  modified: 2024-03-13 01:42:34.467259 -04:00
+- name: modone.nu
+  type: file
+  target: null
+  readonly: false
+  size: 337
+  created: 2024-02-01 16:50:05.161554800 -05:00
+  accessed: 2024-04-10 00:12:00.699769300 -04:00
+  modified: 2024-03-08 06:22:57.198661500 -05:00
+- name: newfuncs.nu
+  type: file
+  target: null
+  readonly: false
+  size: 213
+  created: 2024-04-04 02:00:43.905302800 -04:00
+  accessed: 2024-04-14 13:24:28.479037500 -04:00
+  modified: 2024-04-04 02:12:49.127727600 -04:00
+- name: node_modules
+  type: dir
+  target: null
+  readonly: false
+  size: 8192
+  created: 2024-03-03 21:00:50.603168900 -05:00
+  accessed: 2024-11-01 22:45:32.294528300 -04:00
+  modified: 2024-03-04 09:57:14.214909300 -05:00
+- name: package.json
+  type: file
+  target: null
+  readonly: false
+  size: 1340
+  created: 2024-03-08 06:22:57.473550900 -05:00
+  accessed: 2024-11-01 22:59:30.975385500 -04:00
+  modified: 2024-04-20 17:38:18.660492600 -04:00
+- name: pnpm-lock.yaml
+  type: file
+  target: null
+  readonly: false
+  size: 173457
+  created: 2024-03-08 06:22:57.485973500 -05:00
+  accessed: 2024-04-20 17:36:40.868079 -04:00
+  modified: 2024-03-08 06:25:35.810114100 -05:00
+- name: rm.html
+  type: file
+  target: null
+  readonly: false
+  size: 400
+  created: 2024-03-08 06:34:56.120236700 -05:00
+  accessed: 2024-04-10 00:12:00.629248400 -04:00
+  modified: 2024-03-08 06:34:56.120236700 -05:00
+- name: scripts
+  type: dir
+  target: null
+  readonly: false
+  size: 0
+  created: 2024-03-08 06:34:56.120769200 -05:00
+  accessed: 2024-11-01 23:10:05.457293700 -04:00
+  modified: 2024-03-08 06:34:56.120769200 -05:00
+- name: test_site.html
+  type: file
+  target: null
+  readonly: false
+  size: 848
+  created: 2024-11-01 22:59:30.906908500 -04:00
+  accessed: 2024-11-01 23:08:48.458874500 -04:00
+  modified: 2024-11-01 23:08:48.458874500 -04:00
+- name: using_mods.nu
+  type: file
+  target: null
+  readonly: false
+  size: 1239
+  created: 2024-04-05 20:52:44.692137300 -04:00
+  accessed: 2024-04-14 12:27:30.403515200 -04:00
+  modified: 2024-04-05 21:10:06.431992400 -04:00
